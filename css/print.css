@@ -1,0 +1,107 @@
+/*
+YUI 3.5.1 (build 22)
+Copyright 2012 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+html{color:#000;background:#fff}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+body{
+   font-size: 12px !important;
+   font-family:Tahoma; 
+}
+   
+.page{
+	width:511pt;
+	margin:20px auto;
+	font-size:8px !important;
+}
+
+a:link, a:visited {
+   color: #520;
+   background: transparent;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+.nav{
+	position:fixed;
+	width:200px;
+	top:20px;
+	right:20px;
+	backround:white;
+	padding:5px;
+	
+	line-height:1.5em;
+	
+	color:#fff;
+	background:black;
+	background-color:rgba(0,0,255,0.5);
+	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+	.nav button{
+		margin-top:5px;
+	}
+
+
+/* Table Styling */
+
+table{
+	width:100%;
+	border-collapse: collapse;
+}
+
+table tr{
+	margin-bottom:0.5em;
+}
+
+thead th {background:#c3d9ff;}
+th, td, caption {padding:4px 10px 4px 5px;}
+tr.even td {background:#e5ecf9;}
+
+th {
+	cursor:pointer;
+	padding: 0 0.5em;
+	text-align: left;
+	font-weight:bold;
+}
+
+tr.yellow td {
+	border-top: 1px solid #FB7A31;
+	border-bottom: 1px solid #FB7A31;
+	background: #FFC;
+	}
+
+td {
+	border-bottom: 1px solid #CCC;
+	padding: 0 0.5em;
+	font-size:12px;
+}
+
+td+td {
+	border-left: 1px solid #CCC;
+}
+	
+/* print-only styling */
+
+@media print {
+	.nav {
+	    display:none;
+	}
+}
+
+/* viewing-only styling */
+
+@media screen{
+	html,body{
+		background:#EBEBEB;
+	}
+	.page{
+		background-color: white;
+	    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
+		padding:20px;
+		font-size:8px;
+	}
+	
+}
